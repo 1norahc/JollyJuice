@@ -1,0 +1,54 @@
+{
+    "openai_api_chatCompletion_response": [
+        {
+            "2024-04-20 15:27:03": {
+                "id": "chatcmpl-9G525eq5pEvIv9XymiD7FIt8XBhme",
+                "choices": [
+                    {
+                        "finish_reason": "stop",
+                        "index": 0,
+                        "logprobs": null,
+                        "message": {
+                            "content": "Odpowiedzi\u0105 na to zagadk\u0119 jest \"czas\". Czas zawsze si\u0119 porusza i mo\u017cemy go odczuwa\u0107 jako prz\u00f3d i ty\u0142, ale nigdy nie stoi w miejscu.",
+                            "role": "assistant"
+                        }
+                    }
+                ],
+                "created": 1713619621,
+                "model": "gpt-3.5-turbo-16k-0613",
+                "object": "chat.completion",
+                "system_fingerprint": null,
+                "usage": {
+                    "completion_tokens": 48,
+                    "prompt_tokens": 53,
+                    "total_tokens": 101
+                }
+            }
+        },
+        {
+            "2024-04-20 15:27:13": {
+                "id": "chatcmpl-9G52HcfmoW9PbgqHd8Xd9ZYycb7ps",
+                "choices": [
+                    {
+                        "finish_reason": "stop",
+                        "index": 0,
+                        "logprobs": null,
+                        "message": {
+                            "content": "Poprawna odpowied\u017a! Nic nie jest wi\u0119ksze od Boga, bardziej z\u0142o\u015bliwe od diab\u0142a, biedniejsze od n\u0119dzarza i bardziej cenne ni\u017c z\u0142oto.",
+                            "role": "assistant"
+                        }
+                    }
+                ],
+                "created": 1713619633,
+                "model": "gpt-3.5-turbo-16k-0613",
+                "object": "chat.completion",
+                "system_fingerprint": null,
+                "usage": {
+                    "completion_tokens": 44,
+                    "prompt_tokens": 64,
+                    "total_tokens": 108
+                }
+            }
+        }
+    ]
+}

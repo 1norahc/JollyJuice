@@ -1,26 +1,45 @@
-# Web scrpaing using OpenAI models STARTS WITH ARTICLES
+# MultiLang Web Scraper
 
-IDEA1 - Stworzenie bota na twittera ktory streszcza wszytkie artykuly
+**Opis:**
+MultiLang Web Scraper to aplikacja służąca do scrapowania danych z różnych stron internetowych. Projektem tym chcesz pokazać swoje umiejętności zarówno w obszarze backendu (Python), front-endu (Java), jak i testowania oraz kompilacji (C++).
 
-## Scrapowanie przy pomocy modelu GPT
+## Funkcje
 
-1. Połączneie z GPT-3.5
-2. Jak dobrze scrapowac?
+1. Backend (Python):
+    - Stworzenie serwera aplikacyjnego w Pythonie, który będzie odpowiedzialny za zarządzanie zapytaniami HTTP, przetwarzanie danych i udostępnianie ich front-endowi.
+    - Użyj bibliotek takich jak Flask lub Django do stworzenia backendowej logiki.
+2. Frontend (Java):
+    - Zaimplementuj interfejs użytkownika w języku Java, który będzie służył do wprowadzania adresów URL do scrapowania oraz wyświetlania wyników.
+    - Wykorzystaj frameworki takie jak JavaFX lub Vaadin do stworzenia responsywnego interfejsu.
+3. Testy (C++):
+    - Napisz testy jednostkowe i testy integracyjne dla funkcji backendowych w języku C++.
+    - Użyj biblioteki do testowania, na przykład Google Test, do tworzenia i uruchamiania testów.
 
-Pobieranie tesktu html ze znacnzikami ze strony
+4. Kompilacja (C++):
+    - Wykorzystaj możliwości C++ do zautomatyzowania procesu kompilacji aplikacji lub do dodatkowej optymalizacji wydajnościowej.
 
-Przy pomocy modelu GPT-3.5 wyodrebnienie calego tekstu ze wzgledu na:
-    - naglowki
-    - znacnziki tekstu jak <p>, <b>, itd.
+## Technologie
 
-Przy pomocy wyboru funkcji czy podac streszczony tekst czy podac pelny tekst artykulu
+- Backend: Python (Flask lub Django)
+- Frontend: Java (JavaFX lub Vaadin)
+- Testy: C++
+- Kompilacja: C++
 
-### Pełny schemat scrapowania artykulow przy pomocy mdoeli GPT
+## Dodatkowe funkcje
 
-1. Wczytanie strony
-2. Sprawdzenie czy mozna scrapowac tekst z tej strony (w poznijeszym etapie na razie tak bo wszytko jest do uzytku wlasnego)
-3. Sprawdzenie czy mozna dokonoac dobrego scrapownaia
-4. Wyslanie tekstu do modelu GPT zeby zescrapowac tekst
-5. Dodanie scrapowanego tekstu do durgiego modelu GPT zeby sprawdzic czy scrapowanie zostalo wykonane dobrze
-6. Streszczneie artykulu przez model GPT
-6. Wyslanie tekstu do bazy danych calego i streszczonego oznaczonego odpoiwienidnimi naglowkami
+- Obsługa wielowątkowości: Dodaj obsługę wielowątkowości do backendu w Pythonie, aby zwiększyć wydajność scrapowania danych.
+- Interfejs użytkownika: Stwórz przyjazny interfejs użytkownika, który będzie łatwy w obsłudze i estetyczny.
+- Zapisywanie danych: Dodaj funkcję zapisywania pobranych danych do plików lub bazy danych w celu późniejszego wykorzystania.
+
+## Korzyści
+
+1. Rozwój umiejętności: Projekt ten pozwoli Ci rozwijać umiejętności zarówno w obszarze backendu, jak i frontendu, a także testowania i kompilacji.
+2. Portfolio: Będziesz mógł dodać ten projekt do swojego portfolio i pokazać go potencjalnym pracodawcom jako dowód swoich umiejętności w różnych obszarach programowania.
+3. Zrozumienie pełnego stosu technologicznego: Dzięki implementacji każdej części projektu w innym języku programowania, zrozumiesz, jak różne technologie współpracują ze sobą w rzeczywistych projektach.
+
+# Django 
+
+1. Instalacja: `python3 -m pip install django`
+2. Inicjalizacja projektu Django: `django-admin startproject WebScraping`
+3. Utworzenie aplikacji: `cd WebScraping`, `python3 manage.py startapp scraper`
+4. Uruchomienie serwera `python3 manage.py runserver`

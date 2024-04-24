@@ -1,5 +1,4 @@
 import openai
-from openai.types.chat.completion_create_params import ResponseFormat
 import json
 from api import API
 from openai_api_usage import OPENAI_CHAT_COMPLETION_RESPONSE
